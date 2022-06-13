@@ -1,0 +1,96 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Ryley Hynes",
+            "email": "ryleyhynes@gmail.com"
+        }
+    ],
+    "activity": [
+        {
+            "id": 1,
+            "type": "Rock Climbing"
+        },
+        {
+            "id": 2,
+            "type": "Hiking"
+        }
+    ],
+    "climbs": [
+        {
+            "id": 1,
+            "name": "Owen Spalding",
+            "activityId": 1,
+            "climbingType": "Trad",
+            "climbingGrade": "5.4",
+            "description": "route on the Grand",
+            "location": "Upper Saddle of the Grand Teton"
+        },
+        {
+            "id": 2,
+            "name": "The Snaz",
+            "activityId": 1,
+            "userId": 1,
+            "climbingType": "Trad",
+            "climbingGrade": "5.10a",
+            "description": "A Teton classic. Classic crack climbing with lots of variety. The technical crux is a roof pull on pitch 4, while the physical lies in the consistent flake and wide crack movement of pitch 3. There are some notable variations: at the belay for pitch 3, move left for a 5.10 finger crack. At the top of pitch six, you can move 100' right for two more 5.9 pitches, Cousin Leroy. At the top of pitch 7, climb a three-tiered roof at 10+ instead of the .7 chimney. Also very good.",
+            "location": "Death Canyon- Cathedral Buttress"
+        }
+    ],
+    "hikes": [
+        {
+            "id": 1,
+            "name": "Cascade Canyon Trail",
+            "activityId": 2,
+            "skillLevel": "Moderate",
+            "distance": 9.1,
+            "location": "West Shore Boat Dock, Alta, WY 83414",
+            "estLength": 207,
+            "description": "Try this 9.1-mile out-and-back trail near Moose, Wyoming. Generally considered a moderately challenging route, it takes an average of 3 h 45 min to complete. This is a very popular area for backpacking, camping, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are June through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+            "attractions": "blah"
+        },
+        {
+            "id": 2,
+            "name": "Jenny Lake Loop",
+            "activityId": 2,
+            "skillLevel": "Moderate",
+            "distance": 7.5,
+            "location": "String Lake, Alta, WY 83414",
+            "estLength": 150,
+            "description": "Get to know this 7.5-mile loop trail near Moran, Wyoming. Generally considered a moderately challenging route, it takes an average of 2 h 53 min to complete. This is a popular trail for birding, hiking, and trail running, but you can still enjoy some solitude during quieter times of day. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+            "attractions": "blah"
+        }
+    ],
+    "activitiesCompleted": [
+        {
+            "id":1, 
+            "userId":1,
+            "activityId": 1,
+            "hikeId": null,
+            "climbId": 1
+        },
+        {
+            "id":2, 
+            "userId":1,
+            "activityId": 2,
+            "hikeId": 2,
+            "climbId": null 
+        }
+    ],
+    "activityBucketList": [
+        {
+            "id":2, 
+            "userId":1,
+            "activityId": 1,
+            "hikeId": null,
+            "climbId": 2
+        },
+        {
+            "id":2, 
+            "userId":1,
+            "activityId": 2,
+            "hikeId": 1,
+            "climbId": null 
+        }
+    ]
+}

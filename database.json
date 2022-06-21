@@ -1,96 +1,189 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Ryley Hynes",
-            "email": "ryleyhynes@gmail.com"
-        }
-    ],
-    "activity": [
-        {
-            "id": 1,
-            "type": "Rock Climbing"
-        },
-        {
-            "id": 2,
-            "type": "Hiking"
-        }
-    ],
-    "climbs": [
-        {
-            "id": 1,
-            "name": "Owen Spalding",
-            "activityId": 1,
-            "climbingType": "Trad",
-            "climbingGrade": "5.4",
-            "description": "route on the Grand",
-            "location": "Upper Saddle of the Grand Teton"
-        },
-        {
-            "id": 2,
-            "name": "The Snaz",
-            "activityId": 1,
-            "userId": 1,
-            "climbingType": "Trad",
-            "climbingGrade": "5.10a",
-            "description": "A Teton classic. Classic crack climbing with lots of variety. The technical crux is a roof pull on pitch 4, while the physical lies in the consistent flake and wide crack movement of pitch 3. There are some notable variations: at the belay for pitch 3, move left for a 5.10 finger crack. At the top of pitch six, you can move 100' right for two more 5.9 pitches, Cousin Leroy. At the top of pitch 7, climb a three-tiered roof at 10+ instead of the .7 chimney. Also very good.",
-            "location": "Death Canyon- Cathedral Buttress"
-        }
-    ],
-    "hikes": [
-        {
-            "id": 1,
-            "name": "Cascade Canyon Trail",
-            "activityId": 2,
-            "skillLevel": "Moderate",
-            "distance": 9.1,
-            "location": "West Shore Boat Dock, Alta, WY 83414",
-            "estLength": 207,
-            "description": "Try this 9.1-mile out-and-back trail near Moose, Wyoming. Generally considered a moderately challenging route, it takes an average of 3 h 45 min to complete. This is a very popular area for backpacking, camping, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are June through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
-            "attractions": "blah"
-        },
-        {
-            "id": 2,
-            "name": "Jenny Lake Loop",
-            "activityId": 2,
-            "skillLevel": "Moderate",
-            "distance": 7.5,
-            "location": "String Lake, Alta, WY 83414",
-            "estLength": 150,
-            "description": "Get to know this 7.5-mile loop trail near Moran, Wyoming. Generally considered a moderately challenging route, it takes an average of 2 h 53 min to complete. This is a popular trail for birding, hiking, and trail running, but you can still enjoy some solitude during quieter times of day. You'll need to leave pups at home — dogs aren't allowed on this trail.",
-            "attractions": "blah"
-        }
-    ],
-    "activitiesCompleted": [
-        {
-            "id":1, 
-            "userId":1,
-            "activityId": 1,
-            "hikeId": null,
-            "climbId": 1
-        },
-        {
-            "id":2, 
-            "userId":1,
-            "activityId": 2,
-            "hikeId": 2,
-            "climbId": null 
-        }
-    ],
-    "activityBucketList": [
-        {
-            "id":2, 
-            "userId":1,
-            "activityId": 1,
-            "hikeId": null,
-            "climbId": 2
-        },
-        {
-            "id":2, 
-            "userId":1,
-            "activityId": 2,
-            "hikeId": 1,
-            "climbId": null 
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Ryley Hynes",
+      "email": "ryleyhynes@gmail.com"
+    },
+    {
+      "email": "hyleyrynes@gmail.com",
+      "name": "Hyley Rynes",
+      "id": 2
+    },
+    {
+      "email": "steve@steve.com",
+      "name": "steve",
+      "id": 3
+    }
+  ],
+  "activity": [
+    {
+      "id": 1,
+      "type": "Rock Climbing"
+    },
+    {
+      "id": 2,
+      "type": "Hiking"
+    }
+  ],
+  "climbs": [
+    {
+      "id": 1,
+      "name": "Owen Spalding",
+      "activityId": 1,
+      "typeId": 2,
+      "gradeId": 1,
+      "description": "route on the Grand",
+      "location": "Upper Saddle of the Grand Teton",
+      "completed": true,
+      "bucketList": false,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "The Snaz",
+      "location": "Death Canyon- Cathedral Buttress",
+      "typeId": 2,
+      "gradeId": 4,
+      "description": "A Teton classic. Classic crack climbing with lots of variety. The technical crux is a roof pull on pitch 4, while the physical lies in the consistent flake and wide crack movement of pitch 3. There are some notable variations: at the belay for pitch 3, move left for a 5.10 finger crack. At the top of pitch six, you can move 100' right for two more 5.9 pitches, Cousin Leroy. At the top of pitch 7, climb a three-tiered roof at 10+ instead of the .7 chimney. Also very good.",
+      "completed": false,
+      "bucketList": true,
+      "activityId": 1,
+      "userId": 1
+    },
+    {
+      "name": "snitch",
+      "location": "hi",
+      "typeId": 1,
+      "gradeId": 6,
+      "description": "hello",
+      "completed": true,
+      "scheduleDate": "",
+      "userId": 1,
+      "id": 3
+    }
+  ],
+  "hikes": [
+    {
+      "id": 1,
+      "name": "Cascade Canyon Trail",
+      "activityId": 2,
+      "skillLevelId": 2,
+      "distance": 9.2,
+      "location": "West Shore Boat Dock, Alta, WY 83414",
+      "estLength": 207,
+      "description": "Try this 9.1-mile out-and-back trail near Moose, Wyoming. Generally considered a moderately challenging route, it takes an average of 3 h 45 min to complete. This is a very popular area for backpacking, camping, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are June through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+      "attractions": "blah",
+      "completed": false,
+      "bucketList": true,
+      "scheduledDate": "2022-02-05",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Jenny Lake Loop",
+      "activityId": 2,
+      "skillLevelId": 2,
+      "distance": 7.5,
+      "location": "String Lake, Alta, WY 83414",
+      "estLength": 150,
+      "description": "Get to know this 7.5-mile loop trail near Moran, Wyoming. Generally considered a moderately challenging route, it takes an average of 2 h 53 min to complete. This is a popular trail for birding, hiking, and trail running, but you can still enjoy some solitude during quieter times of day. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+      "attractions": "blah",
+      "completed": true,
+      "bucketList": false,
+      "scheduledDate": "2022-02-05",
+      "userId": 1
+    },
+    {
+      "name": "Everest",
+      "location": "Nepal",
+      "distance": 49,
+      "description": "Very nice",
+      "attractions": "peak",
+      "skillLevelId": 1,
+      "completed": true,
+      "scheduleDate": "",
+      "userId": 1,
+      "id": 3,
+      "bucketList": true
+    }
+  ],
+  "skillLevels": [
+    {
+      "id": 1,
+      "level": "Easy"
+    },
+    {
+      "id": 2,
+      "level": "Moderate"
+    },
+    {
+      "id": 3,
+      "level": "Hard"
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Alpine"
+    },
+    {
+      "id": 2,
+      "name": "Trad"
+    },
+    {
+      "id": 3,
+      "name": "Sport"
+    },
+    {
+      "id": 4,
+      "name": "Top Rope"
+    }
+  ],
+  "grades": [
+    {
+      "id": 1,
+      "rating": 5.4
+    },
+    {
+      "id": 2,
+      "rating": 5.5
+    },
+    {
+      "id": 4,
+      "rating": 5.7
+    },
+    {
+      "id": 5,
+      "rating": 5.8
+    },
+    {
+      "id": 6,
+      "rating": 5.9
+    },
+    {
+      "id": 7,
+      "rating": 5.1
+    },
+    {
+      "id": 8,
+      "rating": 5.11
+    },
+    {
+      "id": 9,
+      "rating": 5.12
+    },
+    {
+      "id": 10,
+      "rating": 5.13
+    },
+    {
+      "id": 11,
+      "rating": 5.14
+    },
+    {
+      "id": 12,
+      "rating": 5.15
+    }
+  ]
 }

@@ -3,7 +3,8 @@
     {
       "id": 1,
       "name": "Ryley Hynes",
-      "email": "ryleyhynes@gmail.com"
+      "email": "ryleyhynes@gmail.com",
+      "url": "images/summit.jpg"
     },
     {
       "email": "hyleyrynes@gmail.com",
@@ -19,11 +20,13 @@
   "activity": [
     {
       "id": 1,
-      "type": "Rock Climbing"
+      "type": "Rock Climbing",
+      "url": "https://57hours.com/wp-content/uploads/2020/08/Grand-Teton-Climbing.jpg"
     },
     {
       "id": 2,
-      "type": "Hiking"
+      "type": "Hiking",
+      "url": "https://parksexpert.com/wp-content/uploads/2020/05/best-hikes-in-grand-teton-featured-image.jpg"
     }
   ],
   "climbs": [
@@ -37,7 +40,8 @@
       "location": "Upper Saddle of the Grand Teton",
       "completed": true,
       "bucketList": false,
-      "userId": 1
+      "userId": 1,
+      "url": "https://i.ytimg.com/vi/0rq7C1lH2ts/maxresdefault.jpg"
     },
     {
       "id": 2,
@@ -49,18 +53,8 @@
       "completed": false,
       "bucketList": true,
       "activityId": 1,
-      "userId": 1
-    },
-    {
-      "name": "snitch",
-      "location": "hi",
-      "typeId": 1,
-      "gradeId": 6,
-      "description": "hello",
-      "completed": true,
-      "scheduleDate": "",
       "userId": 1,
-      "id": 3
+      "url": "https://cdn2.apstatic.com/photos/climb/112077502_smallMed_1494320096.jpg"
     }
   ],
   "hikes": [
@@ -77,7 +71,8 @@
       "completed": false,
       "bucketList": true,
       "scheduledDate": "2022-02-05",
-      "userId": 1
+      "userId": 1,
+      "url": "https://preview.redd.it/xlizhlr1tee11.jpg?width=640&crop=smart&auto=webp&s=769a754f0c01c16db94b5169b01dcf99bfb52c1a"
     },
     {
       "id": 2,
@@ -92,7 +87,8 @@
       "completed": true,
       "bucketList": false,
       "scheduledDate": "2022-02-05",
-      "userId": 1
+      "userId": 1,
+      "url": "http://www.tetonhikingtrails.com/grand-teton-photos/jenny-lake/jenny-lake.jpg"
     },
     {
       "name": "Everest",
@@ -105,7 +101,8 @@
       "scheduleDate": "",
       "userId": 1,
       "id": 3,
-      "bucketList": true
+      "bucketList": true,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/800px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg"
     }
   ],
   "skillLevels": [

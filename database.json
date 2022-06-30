@@ -4,17 +4,22 @@
       "id": 1,
       "name": "Ryley Hynes",
       "email": "ryleyhynes@gmail.com",
-      "url": "images/summit.jpg"
+      "url": "images/summit.jpg",
+      "isStaff": true
     },
     {
       "email": "hyleyrynes@gmail.com",
       "name": "Hyley Rynes",
-      "id": 2
+      "id": 2,
+      "url": "http://www.tetonhikingtrails.com/grand-teton-photos/jenny-lake/jenny-lake.jpg",
+      "isStaff": false
     },
     {
       "email": "steve@steve.com",
       "name": "steve",
-      "id": 3
+      "id": 3,
+      "url": "https://57hours.com/wp-content/uploads/2020/08/Grand-Teton-Climbing.jpg",
+      "isStaff": false
     }
   ],
   "activity": [
@@ -55,6 +60,32 @@
       "activityId": 1,
       "userId": 1,
       "url": "https://cdn2.apstatic.com/photos/climb/112077502_smallMed_1494320096.jpg"
+    },
+    {
+      "name": "Lower Exum Ridge",
+      "location": "Grand Teton",
+      "typeId": 2,
+      "gradeId": 4,
+      "description": "The Durrance Direct, Lower Exum Ridge is a classic route on the southeast side of the Grand Teton. All of the pitches are good but the 5th pitch is by far the best being that it's steep, exposed and still only 5.7.",
+      "completed": false,
+      "scheduleDate": "",
+      "userId": 1,
+      "url": "https://cdn2.apstatic.com/photos/climb/108274367_medium_1494273321.jpg",
+      "id": 3,
+      "bucketList": true
+    },
+    {
+      "name": "Guides Wall",
+      "location": "Cascade Canyon",
+      "typeId": 2,
+      "gradeId": 5,
+      "description": "",
+      "completed": false,
+      "scheduleDate": "",
+      "userId": 1,
+      "url": "https://cdn2.apstatic.com/photos/climb/112383369_medium_1494301702.jpg",
+      "id": 4,
+      "bucketList": false
     }
   ],
   "hikes": [
@@ -91,18 +122,18 @@
       "url": "http://www.tetonhikingtrails.com/grand-teton-photos/jenny-lake/jenny-lake.jpg"
     },
     {
-      "name": "Everest",
-      "location": "Nepal",
-      "distance": 49,
-      "description": "Very nice",
-      "attractions": "peak",
-      "skillLevelId": 1,
-      "completed": true,
+      "name": "Phelps Lake Trail",
+      "location": "Alta, WY 83414",
+      "distance": 7,
+      "description": "Southwest of the Moose Entrance of Grand Teton National Park, Phelps Lake is a prominent feature of the Death Canyon Trail. Beginning from the White Grass Ranger Station, the Phelps Lake Trail first climbs up to an overlook of the water, before plunging back down to access the glacial-fed lake. Making its way down to the shoreline, the Phelps Lake Trail is steep enough to be noted as strenuous, which helps keep this natural attraction less crowded than others in the surrounding area.",
+      "attractions": "Bird Watching, Forest, Lake, Views, Wildflowers, Wildlife",
+      "skillLevelId": 2,
+      "completed": false,
       "scheduleDate": "",
       "userId": 1,
+      "url": "https://www.planetware.com/photos-large/USWY/wyoming-grand-teton-national-park-phelps-lake-trail-loop-phelps-lake-reflection.jpg",
       "id": 3,
-      "bucketList": true,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/800px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg"
+      "bucketList": true
     }
   ],
   "skillLevels": [

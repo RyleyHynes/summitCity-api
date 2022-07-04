@@ -43,13 +43,42 @@
       "gradeId": 1,
       "description": "route on the Grand",
       "location": "Upper Saddle of the Grand Teton",
-      "completed": true,
-      "bucketList": false,
-      "userId": 1,
       "url": "https://i.ytimg.com/vi/0rq7C1lH2ts/maxresdefault.jpg"
     },
     {
       "id": 2,
+      "name": "The Snaz",
+      "location": "Death Canyon- Cathedral Buttress",
+      "typeId": 2,
+      "gradeId": 4,
+      "description": "A Teton classic. Classic crack climbing with lots of variety. The technical crux is a roof pull on pitch 4, while the physical lies in the consistent flake and wide crack movement of pitch 3. There are some notable variations: at the belay for pitch 3, move left for a 5.10 finger crack. At the top of pitch six, you can move 100' right for two more 5.9 pitches, Cousin Leroy. At the top of pitch 7, climb a three-tiered roof at 10+ instead of the .7 chimney. Also very good.",
+      "activityId": 1,
+      "url": "https://cdn2.apstatic.com/photos/climb/112077502_smallMed_1494320096.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Lower Exum Ridge",
+      "location": "Grand Teton",
+      "typeId": 2,
+      "gradeId": 4,
+      "description": "The Durrance Direct, Lower Exum Ridge is a classic route on the southeast side of the Grand Teton. All of the pitches are good but the 5th pitch is by far the best being that it's steep, exposed and still only 5.7.",
+      "activityId": 1,
+      "url": "https://cdn2.apstatic.com/photos/climb/108274367_medium_1494273321.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Guides Wall",
+      "location": "Cascade Canyon",
+      "typeId": 2,
+      "gradeId": 5,
+      "description": "",
+      "activityId": 1,
+      "url": "https://cdn2.apstatic.com/photos/climb/112383369_medium_1494301702.jpg"
+    }
+  ],
+  "userClimbs": [
+    {
+      "id": 1,
       "name": "The Snaz",
       "location": "Death Canyon- Cathedral Buttress",
       "typeId": 2,
@@ -60,32 +89,6 @@
       "activityId": 1,
       "userId": 1,
       "url": "https://cdn2.apstatic.com/photos/climb/112077502_smallMed_1494320096.jpg"
-    },
-    {
-      "name": "Lower Exum Ridge",
-      "location": "Grand Teton",
-      "typeId": 2,
-      "gradeId": 4,
-      "description": "The Durrance Direct, Lower Exum Ridge is a classic route on the southeast side of the Grand Teton. All of the pitches are good but the 5th pitch is by far the best being that it's steep, exposed and still only 5.7.",
-      "completed": false,
-      "scheduleDate": "",
-      "userId": 1,
-      "url": "https://cdn2.apstatic.com/photos/climb/108274367_medium_1494273321.jpg",
-      "id": 3,
-      "bucketList": true
-    },
-    {
-      "name": "Guides Wall",
-      "location": "Cascade Canyon",
-      "typeId": 2,
-      "gradeId": 5,
-      "description": "",
-      "completed": false,
-      "scheduleDate": "",
-      "userId": 1,
-      "url": "https://cdn2.apstatic.com/photos/climb/112383369_medium_1494301702.jpg",
-      "id": 4,
-      "bucketList": false
     }
   ],
   "hikes": [
@@ -96,13 +99,9 @@
       "skillLevelId": 2,
       "distance": 9.2,
       "location": "West Shore Boat Dock, Alta, WY 83414",
-      "estLength": 207,
       "description": "Try this 9.1-mile out-and-back trail near Moose, Wyoming. Generally considered a moderately challenging route, it takes an average of 3 h 45 min to complete. This is a very popular area for backpacking, camping, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are June through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
       "attractions": "blah",
-      "completed": false,
-      "bucketList": true,
-      "scheduledDate": "2022-02-05",
-      "userId": 1,
+      "estLength": 207,
       "url": "https://preview.redd.it/xlizhlr1tee11.jpg?width=640&crop=smart&auto=webp&s=769a754f0c01c16db94b5169b01dcf99bfb52c1a"
     },
     {
@@ -112,15 +111,25 @@
       "skillLevelId": 2,
       "distance": 7.5,
       "location": "String Lake, Alta, WY 83414",
-      "estLength": 150,
       "description": "Get to know this 7.5-mile loop trail near Moran, Wyoming. Generally considered a moderately challenging route, it takes an average of 2 h 53 min to complete. This is a popular trail for birding, hiking, and trail running, but you can still enjoy some solitude during quieter times of day. You'll need to leave pups at home — dogs aren't allowed on this trail.",
       "attractions": "blah",
-      "completed": true,
-      "bucketList": false,
-      "scheduledDate": "2022-02-05",
-      "userId": 1,
+      "estLength": 150,
       "url": "http://www.tetonhikingtrails.com/grand-teton-photos/jenny-lake/jenny-lake.jpg"
     },
+    {
+      "id": 3,
+      "name": "Phelps Lake Trail",
+      "activityId": 2,
+      "skillLevelId": 2,
+      "distance": 7,
+      "location": "Alta, WY 83414",
+      "description": "Southwest of the Moose Entrance of Grand Teton National Park, Phelps Lake is a prominent feature of the Death Canyon Trail. Beginning from the White Grass Ranger Station, the Phelps Lake Trail first climbs up to an overlook of the water, before plunging back down to access the glacial-fed lake. Making its way down to the shoreline, the Phelps Lake Trail is steep enough to be noted as strenuous, which helps keep this natural attraction less crowded than others in the surrounding area.",
+      "attractions": "Bird Watching, Forest, Lake, Views, Wildflowers, Wildlife",
+      "estLength": 150,
+      "url": "https://www.planetware.com/photos-large/USWY/wyoming-grand-teton-national-park-phelps-lake-trail-loop-phelps-lake-reflection.jpg"
+    }
+  ],
+  "userHikes": [
     {
       "name": "Phelps Lake Trail",
       "location": "Alta, WY 83414",

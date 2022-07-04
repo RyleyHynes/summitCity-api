@@ -85,7 +85,33 @@
       "userId": 1,
       "url": "https://cdn2.apstatic.com/photos/climb/112383369_medium_1494301702.jpg",
       "id": 4,
-      "bucketList": false
+      "bucketList": true
+    },
+    {
+      "name": "Baxter's Pinnacle - South Ridge",
+      "location": "Jenny Lake",
+      "typeId": 2,
+      "gradeId": 6,
+      "description": "The described below should bring you to a huge block for the 1st belay:  P1 Go up and left along a ramp, then go back right past a tree and belay on a ledge where the climb steepens. If you want, the steep wall directly above the 1st belay goes 5.10 and has a couple of bolts. It's a variation called Seizure Disorder.  P2 (5.6) Climb straight up the crest, which angles a little to the left as you approach a large ledge for 2nd belay. A steep crack to the right is the 2nd pitch (5.8) of the South Ridge climb. It has a couple of fixed pins low down.  P3 (5.6) Continue straight up on the south face and top out before setting up belay.  P4 Traverse (more easy) across and slightly down to a large flat stance below the base of the more intimidating tower and set up your next belay from there.  P5 (5.9) Over to the right, just to the left of the corner and above, there is a fixed pin. The crux of the climb is a one move affair to get off of the flat stance and onto the tower above the pin. From there you climb just a bit to the right of the pin and up a big, detached flake. Then a steep (5.7) lieback crack goes up and left along the very steep corner. There are 3 fixed pins in the crack. Finally double cracks lead to the summit.  Although not as hard as the complete South Ridge, a 5.6 pitch vs. 5.8 crack on the 2nd pitch, I really enjoyed staying out on the South Face. The lieback portion of the last pitch had the most enjoyable moves on the entire climb for me.  The rappel is about 75 feet into the notch to the north behind the pinnacle. You then downclimb the steep couloir along the west side of the pinnacle. Watch for loose rock.",
+      "completed": false,
+      "scheduleDate": "",
+      "userId": 1,
+      "url": "https://www.akmountain.com/wp-content/uploads/2009/06/baxter-0001.jpg",
+      "id": 5,
+      "bucketList": true
+    },
+    {
+      "name": "Open Book",
+      "location": "Disappointment Peak",
+      "typeId": 2,
+      "gradeId": 6,
+      "description": "A Teton classic with great exposure, a short (by Teton standards) approach and simple descent. Not to be missed!  The climb follows a beautiful crack/dihedral system just right of a huge arete. The bulk of the climbing is stellar finger-crack climbing on good rock with airy belays and spectacular exposure. Expect semihanging belays on most pitches.  The climb faces south, so it does benefit from some solar warming.  Pitch 1 - The guidebooks suggest two starts - either a direct 5.9 finger/handcrack or a traverse in from the right. I've done both and the direct start is the way to go. Better crack, and way less rope drag. After tackling the 40 feet of 5.9 jamming, work up an easy section of rock and find a belay stance (below the first overhang?) seem to recall a less-than-perfect anchor here - with a small nut being the best piece.  Pitch 2 - Awesome 5.8 climbing on beautiful, stellar rock. Just keep chugging away straight up the obvious crack. You'll pass a small overhang (to the right) on this pitch. Great protection the whole way. Belay on top of a big detached flake at a small stance.  Note: You can combine Pitch 1 and 2 above (provided you do the direct start) with a 60m rope - which will *just* make it.  Pitch 3 - The money pitch. Cranking 5.8 liebacking off the belay (slick feet) leads up to an AWESOME section of finger-crack climbing and stemming through a small overhang ending up at a sloping belay ledge below a giant roof. Perfect rock.  Pitch 4 - Improbable but straightforward climbing to the right and up through the roof on great holds. After clearing the roof, follow the crack system up and right to another sloping belay ledge beneath an attractive crack.  Pitch 5 - Two options here as well. You can go right and have some easy 5th-class climbing, or straight up another great crack pitch finishing with a 5.9+ roof move. Good pro makes this pitch recommended, even if the grade might be a little intimidating. Belay on a huge ledge.  Pitch 6 - Face climb straight up until you can get into the big crack. Once the crack ends traverse up and right to finish the climb.  I've comfortably done this route in about 7 1/2 hours car to car moving efficiently, but not racing by any means.",
+      "completed": false,
+      "scheduleDate": "",
+      "userId": 1,
+      "url": "https://preview.redd.it/gnz9mmh2ph571.jpg?width=640&crop=smart&auto=webp&s=6a5064f5ca8a57c830b598ef7bc646ab31d5fbc1",
+      "id": 6,
+      "bucketList": true
     }
   ],
   "hikes": [
@@ -98,7 +124,7 @@
       "location": "West Shore Boat Dock, Alta, WY 83414",
       "estLength": 207,
       "description": "Try this 9.1-mile out-and-back trail near Moose, Wyoming. Generally considered a moderately challenging route, it takes an average of 3 h 45 min to complete. This is a very popular area for backpacking, camping, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are June through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
-      "attractions": "blah",
+      "attractions": "Hiking, Wildlife, WildFlowers, Camping, Backpacking, Forest, Lake",
       "completed": false,
       "bucketList": true,
       "scheduledDate": "2022-02-05",
@@ -114,7 +140,7 @@
       "location": "String Lake, Alta, WY 83414",
       "estLength": 150,
       "description": "Get to know this 7.5-mile loop trail near Moran, Wyoming. Generally considered a moderately challenging route, it takes an average of 2 h 53 min to complete. This is a popular trail for birding, hiking, and trail running, but you can still enjoy some solitude during quieter times of day. You'll need to leave pups at home — dogs aren't allowed on this trail.",
-      "attractions": "blah",
+      "attractions": "Lake, Wildlife, Forest, River, Waterfall, Snowshoeing, Beach",
       "completed": true,
       "bucketList": false,
       "scheduledDate": "2022-02-05",
@@ -134,6 +160,46 @@
       "url": "https://www.planetware.com/photos-large/USWY/wyoming-grand-teton-national-park-phelps-lake-trail-loop-phelps-lake-reflection.jpg",
       "id": 3,
       "bucketList": true
+    },
+    {
+      "name": "Taggart Lake Loop",
+      "location": "Travel north on the Teton Park Road to the Taggart Lake Trailhead.",
+      "distance": 3.8,
+      "description": "Generally considered an easy route, it takes an average of 1 h 31 min to complete. This is a very popular area for birding, hiking, and horseback riding, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+      "attractions": "Hike, Horseback riding, bird watching, running, lake, river",
+      "skillLevelId": 1,
+      "completed": false,
+      "scheduleDate": "",
+      "userId": 1,
+      "url": "https://cdn2.apstatic.com/photos/hike/7032383_medium_1554933097.jpg",
+      "id": 4,
+      "bucketList": true
+    },
+    {
+      "name": "Hidden Falls Trail",
+      "location": "Moose, WY 83012-0170",
+      "distance": 4.9,
+      "description": "Generally considered a moderately challenging route, it takes an average of 2 h 1 min to complete. This is a very popular area for birding, camping, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+      "attractions": "Views, waterfall, river, partially paved, historic site",
+      "skillLevelId": 2,
+      "completed": false,
+      "scheduleDate": "",
+      "userId": 1,
+      "url": "https://www.nps.gov/common/uploads/cropped_image/primary/67BFBB22-9A01-3B91-D6C8C4A6107CB471.jpg?width=1200&quality=90&mode=crop",
+      "id": 5
+    },
+    {
+      "name": "Garnet Canyon to The Lower Saddle Trail",
+      "location": "Lupine Meadows Trailhead",
+      "distance": 12.3,
+      "description": "Generally considered a challenging route, it takes an average of 9 h 10 min to complete. This is a popular trail for hiking and trail running, but you can still enjoy some solitude during quieter times of day. The best times to visit this trail are May through September. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+      "attractions": "Hiking, Running, Views, Wildflowers, Wildlife",
+      "skillLevelId": 3,
+      "completed": true,
+      "scheduleDate": "",
+      "userId": 1,
+      "url": "https://www.outdoorproject.com/sites/default/files/styles/hero_image_desktop/public/features/garnetcanyon-22_0.jpg?itok=SiL9zClj",
+      "id": 6
     }
   ],
   "skillLevels": [
